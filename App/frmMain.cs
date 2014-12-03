@@ -13,5 +13,6 @@ namespace Journal.App {
 		public frmMain() {
 			InitializeComponent();
 		}
+
 	}
 }

@@ -44,23 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\ActionButtonBase.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\ActionButtonBase.Designer.cs">
-      <DependentUpon>ActionButtonBase.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controls\EditorBase.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\EditorBase.Designer.cs">
       <DependentUpon>EditorBase.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\EditorMenuBase.cs">
+    <Compile Include="Controls\TextEditor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\EditorMenuBase.Designer.cs">
-      <DependentUpon>EditorMenuBase.cs</DependentUpon>
+    <Compile Include="Controls\TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -73,11 +67,12 @@
     <EmbeddedResource Include="Controls\EditorBase.resx">
       <DependentUpon>EditorBase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\EditorMenuBase.resx">
-      <DependentUpon>EditorMenuBase.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
