@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalApp.UI", "App\JournalApp.UI.csproj", "{BD0A0843-55A3-42AE-B05A-60929438FFF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalApp.UI", "JournalApp.UI\JournalApp.UI.csproj", "{BD0A0843-55A3-42AE-B05A-60929438FFF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{76F9B290-B22D-41F3-A282-8997326C1EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{726E15C7-C09A-467D-8986-7E52858BB65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journal.Objects", "Journal.Objects\Journal.Objects.csproj", "{504FEF50-1D26-4F6D-AF1E-DD505813A346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +19,16 @@ Global
 		{BD0A0843-55A3-42AE-B05A-60929438FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD0A0843-55A3-42AE-B05A-60929438FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD0A0843-55A3-42AE-B05A-60929438FFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504FEF50-1D26-4F6D-AF1E-DD505813A346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504FEF50-1D26-4F6D-AF1E-DD505813A346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504FEF50-1D26-4F6D-AF1E-DD505813A346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504FEF50-1D26-4F6D-AF1E-DD505813A346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD0A0843-55A3-42AE-B05A-60929438FFF4} = {76F9B290-B22D-41F3-A282-8997326C1EBD}
+		{504FEF50-1D26-4F6D-AF1E-DD505813A346} = {726E15C7-C09A-467D-8986-7E52858BB65F}
 	EndGlobalSection
 EndGlobal

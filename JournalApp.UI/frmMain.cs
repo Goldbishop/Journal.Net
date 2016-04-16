@@ -14,5 +14,9 @@ namespace Journal.App {
 			InitializeComponent();
 		}
 
+        private void frmMain_Load(object sender, EventArgs e) {
+
+        }
+
 	}
 }
