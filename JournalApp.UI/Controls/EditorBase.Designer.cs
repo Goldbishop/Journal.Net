@@ -1,5 +1,5 @@
 ﻿namespace Journal.App.Controls {
-	partial class EditorMenuBase {
+	partial class EditorBase {
 		/// <summary> 
 		/// Required designer variable.
 		/// </summary>
@@ -23,18 +23,36 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			this.splTextEditorViewer = new System.Windows.Forms.SplitContainer();
+			((System.ComponentModel.ISupportInitialize)(this.splTextEditorViewer)).BeginInit();
+			this.splTextEditorViewer.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// EditorMenuBase
+			// splTextEditorViewer
+			// 
+			this.splTextEditorViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.splTextEditorViewer.Location = new System.Drawing.Point(0, 0);
+			this.splTextEditorViewer.Name = "splTextEditorViewer";
+			this.splTextEditorViewer.Size = new System.Drawing.Size(646, 418);
+			this.splTextEditorViewer.SplitterDistance = 327;
+			this.splTextEditorViewer.TabIndex = 1;
+			// 
+			// EditorBase
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Name = "EditorMenuBase";
-			this.Size = new System.Drawing.Size(771, 230);
+			this.Controls.Add(this.splTextEditorViewer);
+			this.Name = "EditorBase";
+			this.Size = new System.Drawing.Size(646, 418);
+			((System.ComponentModel.ISupportInitialize)(this.splTextEditorViewer)).EndInit();
+			this.splTextEditorViewer.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
+
+
+
 	}
 }
